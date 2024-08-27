@@ -2,7 +2,7 @@ Este programa é um sistema simples de gerenciamento de uma biblioteca, que perm
 
 Aqui está uma descrição passo a passo do que o programa faz.
 
-Função cadastrar_livro(id):
+Função cadastrar_livro(id)
 
 Descrição: Esta função é usada para cadastrar novos livros na biblioteca.
 
@@ -34,9 +34,13 @@ Consultar por ID
 
 Solicita o ID do livro e exibe o livro correspondente, se encontrado.
 
-Consultar por autor: Solicita o nome do autor e exibe todos os livros escritos por ele.
+Consultar por autor.
 
-Retornar ao menu: Sai da função e volta ao menu principal.
+Solicita o nome do autor e exibe todos os livros escritos por ele.
+
+Retornar ao menu.
+
+Sai da função e volta ao menu principal.
 
 Se o usuário escolhe uma opção inválida, exibe uma mensagem de erro e solicita nova entrada.
 
@@ -52,7 +56,7 @@ Lista Global lista_livro.
 
 Descrição: Armazena todos os livros cadastrados como dicionários.
 
-Variável Global id_global:
+Variável Global id_global
 
 Descrição: Usada para gerar IDs únicos para cada livro cadastrado, incrementando a cada novo cadastro.
 
